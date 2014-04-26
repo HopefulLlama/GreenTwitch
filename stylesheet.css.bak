@@ -1,0 +1,303 @@
+/*
+Black:			#000000
+Light Blue:		#CBF2F2
+Dark Blue:		#21508A
+Red:			#FF0000
+Dark Grey:		#EEEEEE
+Light Grey:		#DEDEDE
+White:			#FFFFFF
+*/
+body{
+font-family:sans-serif;
+margin:0px;
+background-color:#000000;
+}
+
+#main{
+margin-left:auto;
+margin-right:auto;
+margin-top:0px;
+margin-bottom:0px;
+width:80%;
+}
+
+#map-canvas{
+width:500px;
+height:300px;
+}
+
+.tick{display:none}
+.cross{display:none}
+
+.textLeft{
+text-align:left;
+}
+
+.textRight{
+text-align:right;
+}
+
+.textCentre{
+text-align:center;
+}
+
+.center{
+margin-left:auto;
+margin-right:auto;
+}
+
+.left{
+float:left;
+}
+
+.right{
+float:right;
+}
+
+.margin{
+margin:15px;
+}
+
+.nav{
+display:inline-block;
+background-color:#DEDEDE;
+padding:10px;
+margin:0px;
+border:1px solid black;
+}
+
+.nav:hover{
+display:inline-block;
+background-color:#CBF2F2;
+padding:10px;
+margin:0px;
+border:1px solid black;
+}
+
+.nav a{
+color:#000000;
+text-decoration: none;
+font-weight:bold;
+}
+
+.smallNav{
+display:inline-block;
+background-color:#DEDEDE;
+padding: 4px;
+margin-left:5px;
+margin-right:5px;
+border:1px solid black;
+}
+
+.smallNav:hover{
+display:inline-block;
+background-color:#CBF2F2;
+padding: 4px;
+margin-left:5px;
+margin-right:5px;
+border:1px solid black;
+}
+
+.smallNav a{
+color:#000000;
+text-decoration: none;
+font-weight:bold;
+}
+
+.confirmation{
+font-size:30px;
+}
+
+.error{
+color:#FF0000;
+}
+
+.smallFont{
+font-size:small;
+}
+
+.greyLight{
+color:#dedede;
+}
+
+.greyDark{
+color:#eeeeee;
+}
+
+.formTitle{
+margin:0px;
+margin-bottom:10px;
+font-size:large;
+}
+
+.clear{
+clear:both;
+line-height:0;
+}
+
+.largeFont{
+font-size:large;
+}
+
+.marginless{
+margin:0px;
+}
+/*
+Header stuff
+*/
+
+#banner{
+background-color:#21508A;
+display:inline-block;
+width:100%;
+margin:0px;
+}
+
+a.logo:link, a.logo:visited{
+margin:10px;
+font-size:50px;
+width:200px;
+color:#FFFFFF;
+text-decoration:none;
+}
+
+#login{
+margin-right:10px;
+display:block;
+color:#FFFFFF;
+vertical-align: top;
+}
+
+#login p{
+margin:0px;
+padding: 5px;
+}
+
+/*
+Generic content stuff
+*/
+
+.content{
+display:block;
+width:auto;
+background:#ffffff;
+border:1px solid black;
+padding:5px;
+}
+
+.halfDiv{
+display:block;
+width:47%;
+padding:5px;
+}
+
+/*
+Form Stuff
+*/
+
+form.styled fieldset {
+padding:5px;
+}
+
+form.styled legend {
+padding:5 5px;
+font-weight:bold;
+font-size:large;
+}
+
+form.styled label {
+display:inline-block;
+text-align:left;
+width:100px;
+}
+/*
+form.styled input {
+width:120px;
+}
+*/
+form.styled span {
+color:red;
+}
+
+
+/*
+Twitch Results Stuff
+*/
+.postHeading{
+font-size:larger;
+padding:5px;
+text-decoration:underline;
+}
+
+.postSubHeading{
+font-size:large;
+padding-left:10px;
+}
+
+.postContent{
+font-size:small;
+padding-left:15px;
+}
+
+.postContent span{
+display:inline-block;
+width: 100px;
+}
+
+.postContent img{
+width:150px;
+
+}
+
+.pageMenu{
+text-align:center;
+}
+
+.pageMenu span{
+text-align:center;
+padding: 5px;
+display:inline-block;
+width: 50px;
+}
+
+.pageMenu span:hover{
+display:inline-block;
+padding:5px;
+background-color:#CBF2F2;
+margin:0px;
+}
+
+.pageMenu a{
+color:#000000;
+text-decoration: none;
+font-weight:bold;
+}
+
+/*
+View Twitch Stuff
+*/
+div.imageBox{
+display:inline-block;
+border:1px solid gray;
+padding:5px;
+margin:5px;
+}
+
+div.imageBox img{
+width:150px;
+margin-left: auto;
+margin-right: auto;
+}
+
+form.small fieldset {
+padding:5px;
+}
+
+form.small label {
+display:block;
+text-align:left;
+}
+
+form.small .restrictWidth {
+width: 150px;
+}
